@@ -1,0 +1,199 @@
+/*--------------------*/
+/*general*/
+/*--------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    position:relative;
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgba(247, 247, 247, 0.86);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.layout {
+    padding: 15px;
+    border-bottom: 1px solid #c39090;
+}
+
+
+
+
+/*--------------------*/
+/*xxxxxx*/
+/*--------------------*/
+
+
+
+h1 {
+    font-size: 240%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    text-transform:capitalize;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.timeSpan {
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+}
+
+
+/*--------------------*/
+/*button*/
+/*--------------------*/
+
+
+button {
+    display: inline-block;
+    font-size:　30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #0e1048;
+    padding: 5px;
+    width: 85px;
+    background: none;
+    border-radius: 30px;
+    border: 1px solid #5c6ca8;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #edf9ff;
+}
+
+button:active {
+    background-color: #d3f0ff;
+}
+
+/*--------------------*/
+/*xxxxxx*/
+/*--------------------*/
+
+.counter {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.timeShower {
+    display: block;
+    margin: 20px auto;  
+}
+
+.btn-hrs-1 {
+    width: 20%;
+    margin-left: 30%;
+    
+}
+
+.btn-hrs-2 {
+   width: 20%;
+}
+
+.btn-20 {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*--------------------*/
+/*xxxxxx*/
+/*--------------------*/
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.text-box {
+    height: 200px;
+    width: 100%;
+    margin: 2px 2px;
+    font-size: 14px;
+    font-family: serif;
+    text-align: center;
+    border: 2px solid #c6c6c6;
+    border-top-color: #442233;
+}
+
+.btn-list {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.btn-list li {
+    margin: 8px 2px;
+}
+
+.btn-plus {
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.btn-save,
+.btn-read,
+.btn-clear {
+}
+
+.confirm {
+    font-size: 10px;
+}
+
+
+/*--------------------*/
+/*Project*/
+/*--------------------*/
+
+a:link,
+a:visited {
+    display:block;
+    text-align: center;
+    margin: 15px auto;
+    width: 150px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
